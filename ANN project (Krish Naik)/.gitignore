@@ -1,0 +1,6 @@
+venv/
+env/
+*.pkl
+*.keras
+__pycache__/
+*.pyc
