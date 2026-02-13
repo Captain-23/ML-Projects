@@ -1,0 +1,11 @@
+prefix=/Users/arnav/Desktop/End-to-End-ML-Projects/ANN project (Krish Naik)/venv
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+toolexeclibdir=${libdir}
+includedir=/Users/arnav/Desktop/End-to-End-ML-Projects/ANN project (Krish Naik)/venv/include
+
+Name: libffi
+Description: Library supporting Foreign Function Interfaces
+Version: 3.4.4
+Libs: -L${toolexeclibdir} -lffi
+Cflags: -I${includedir}
