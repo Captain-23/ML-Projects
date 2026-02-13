@@ -4,3 +4,4 @@ env/
 *.keras
 __pycache__/
 *.pyc
+logs/
